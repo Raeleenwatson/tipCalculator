@@ -5,11 +5,10 @@
 //  Created by Raeleen Watson on 8/31/18.
 //  Copyright © 2018 Raeleen Watson. All rights reserved.
 //
-
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
@@ -19,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
